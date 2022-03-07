@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastel Space</title>
+</head>
+
+<body>
+    <!-- Logo -->
+    <img src="Logo_Pasteleria.png" alt="Logo pasteleria" width="800px">
+
+    <h1>Bienvenido a Pastel Space</h1>
+    <h2>Construye tu pastel</h2>
+
+    <h3>Seleccion de Sabores</h3>
+    Seleccione el sabor de su preferencia, posteriormente si desea combinarlo con algun otro sabor favor de
+    seleccionarlo:
+
+    <table>
+        <tr>
+            <td>
+                <form action="">
+                    <input type="radio" id="Vainilla" name="Sabor" value="Vainilla">
+                    <label for="Vainilla">Vainilla</label>
+                    <label for="Vainilla"> ---- $750</label><br>
+                    <input type="radio" id="Chocolate" name="Sabor" value="Chocolate">
+                    <label for="Chocolate">Chocolate</label>
+                    <label for="Chocolate"> ---- $450</label><br>
+                    <input type="radio" id="Limon" name="Sabor" value="Limon">
+                    <label for="Limon">Limon</label>
+                    <label for="Limon"> ---- $670</label><br>
+                    <input type="radio" id="Zanahoria" name="Sabor" value="Zanahoria">
+                    <label for="Zanahoria">Zanahoria</label>
+                    <label for="Zanahoria"> ---- $350</label><br>
+                    <input type="radio" id="Naranja" name="Sabor" value="Naranja">
+                    <label for="Naranja">Naranja</label>
+                    <label for="Naranja"> ---- $240</label><br>
+                    <input type="radio" id="Fresa" name="Sabor" value="Fresa">
+                    <label for="Fresa">Fresa</label>
+                    <label for="Fresa"> ---- $350</label><br>
+                    <input type="radio" id="Piñon" name="Sabor" value="Piñon">
+                    <label for="Piñon">Piñon</label>
+                    <label for="Piñon"> ---- $370</label><br>
+                    <input type="radio" id="Zarzamora" name="Sabor" value="Zarzamora">
+                    <label for="Zarzamora">Zarzamora</label>
+                    <label for="Zarzamora"> ---- $750</label><br>
+                    <input type="radio" id="Durazno" name="Sabor" value="Durazno">
+                    <label for="Durazno">Durazno</label>
+                    <label for="Durazno"> ---- $1500</label><br>
+                </form>
+            </td>
+            <td>-------------------
+            </td>
+            <td>
+                <form action="">
+                    <input type="radio" id="Ninguno_Comb" name="Sabor_Comb" value="Ninguno_Comb" checked>
+                    <label for="Ninguno_Comb">Ninguno</label>
+                    <label for="Ninguno_Comb"> ---- 0</label><br>
+                    <input type="radio" id="Vainilla_Comb" name="Sabor_Comb" value="Vainilla_Comb">
+                    <label for="Vainilla_Comb">Vainilla</label>
+                    <label for="Vainilla_Comb"> ---- $750</label><br>
+                    <input type="radio" id="Chocolate_Comb" name="Sabor_Comb" value="Chocolate_Comb">
+                    <label for="Chocolate_Comb">Chocolate</label>
+                    <label for="Chocolate_Comb"> ---- $450</label><br>
+                    <input type="radio" id="Limon_Comb" name="Sabor_Comb" value="Limon_Comb">
+                    <label for="Limon_Comb">Limon</label>
+                    <label for="Limon_Comb"> ---- $670</label><br>
+                    <input type="radio" id="Zanahoria_Comb" name="Sabor_Comb" value="Zanahoria_Comb">
+                    <label for="Zanahoria_Comb">Zanahoria</label>
+                    <label for="Zanahoria_Comb"> ---- $350</label><br>
+                    <input type="radio" id="Naranja_Comb" name="Sabor_Comb" value="Naranja_Comb">
+                    <label for="Naranja_Comb">Naranja</label>
+                    <label for="Naranja_Comb"> ---- $240</label><br>
+                    <input type="radio" id="Fresa_Comb" name="Sabor_Comb" value="Fresa_Comb">
+                    <label for="Fresa_Comb">Fresa</label>
+                    <label for="Fresa_Comb"> ---- $350</label><br>
+                    <input type="radio" id="Piñon_Comb" name="Sabor_Comb" value="Piñon_Comb">
+                    <label for="Piñon_Comb">Piñon</label>
+                    <label for="Piñon_Comb"> ---- $370</label><br>
+                    <input type="radio" id="Zarzamora_Comb" name="Sabor_Comb" value="Zarzamora_Comb">
+                    <label for="Zarzamora_Comb">Zarzamora</label>
+                    <label for="Zarzamora_Comb"> ---- $750</label><br>
+                    <input type="radio" id="Durazno_Comb" name="Sabor_Comb" value="Durazno_Comb">
+                    <label for="Durazno_Comb">Durazno</label>
+                    <label for="Durazno_Comb"> ---- $1500</label><br>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <h3>Seleccion de adornos</h3>
+
+
+    <form action="">
+        <input type="checkbox" id="Arreglo de globos" name="Arreglo de globos" value="Arreglo de globos">
+        <label for="Arreglo de globos">Arreglo de globos</label>
+        <label for="Arreglo de globos"> ---- $50</label><br>
+
+        <input type="checkbox" id="Pastel con diseño" name="Pastel con diseño" value="Pastel con diseño">
+        <label for="Pastel con diseño">Pastel con diseño</label>
+        <label for="Pastel con diseño"> ---- $70</label><br>
+
+        <input type="checkbox" id="Chispas de chocolate" name="Chispas de chocolate" value="Chispas de chocolate">
+        <label for="Chispas de chocolate">Chispas de chocolate</label>
+        <label for="Chispas de chocolate"> ---- $20</label><br>
+
+        <input type="checkbox" id="Panditas" name="Panditas" value="Panditas">
+        <label for="Panditas">Panditas</label>
+        <label for="Panditas"> ---- $75</label><br>
+
+        <input type="checkbox" id="Crema batida" name="Crema batida" value="Crema batida">
+        <label for="Crema batida">Crema batida</label>
+        <label for="Crema batida"> ---- $20</label><br>
+
+        <input type="checkbox" id="Fruta adicional" name="Fruta adicional" value="Fruta adicional">
+        <label for="Fruta adicional">Fruta adicional</label>
+        <label for="Fruta adicional"> ---- $50</label><br>
+
+        <input type="checkbox" id="Sorpresa en el interior" name="Sorpresa en el interior"
+            value="Sorpresa en el interior">
+        <label for="Sorpresa en el interior">Sorpresa en el interior</label>
+        <label for="Sorpresa en el interior"> ---- $66</label><br>
+    </form>
+
+    <br>
+    <br>
+
+    <hr>
+    <br>
+    <br>
+
+    <h3>Para realizar el pedido es necesario tener la siguiente información:</h3>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="apellido">Telefono:</label>
+        <input type="tel" id="apellido" name="apellido" form="form1"><br><br>
+        <label for="apellido">Correo Electronico:</label>
+        <input type="email" id="apellido" name="apellido" form="form1"><br><br>
+        <label for="apellido">Comentarios</label>
+        <input type="text" id="apellido" name="apellido" form="form1"><br><br>
+    </form>
+
+    <button onclick="location.href='#'">Ordenar</button>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <hr>
+    <hr>
+    <footer>
+        <p>Contacto</p>
+        <p>Av Jimenez S/N San Pedro Garza Garcia</p>
+        <p>Telefono de contacto: 81-XXX-XXX-XX</p>
+    </footer>
+    <hr>
+    <hr>
+</body>
+
+</html>
